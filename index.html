@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
+  <body style="height: 100vh">
+    <header>
+      <h1>HANGMAN</h1>
+      <h3>VANILLA JAVASCRIPT HANGMAN GAME</h3>
+      <p>
+        Use the alphabet below to guess the word, or click hint to get a clue.
+      </p>
+    </header>
+    <main>
+      <button id="a">a</button>
+      <button id="b">b</button>
+      <button id="c">c</button>
+      <button id="d">d</button>
+      <button id="e">e</button>
+      <button id="f">f</button>
+      <button id="g">g</button>
+      <button id="h">h</button>
+      <button id="i">i</button>
+      <button id="j">j</button>
+      <button id="k">k</button>
+      <button id="l">l</button>
+      <button id="m">m</button>
+      <button id="n">n</button>
+      <button id="o">o</button>
+      <button id="p">p</button>
+      <button id="q">q</button>
+      <button id="r">r</button>
+      <button id="s">s</button>
+      <button id="t">t</button>
+      <button id="u">u</button>
+      <button id="v">v</button>
+      <button id="w">w</button>
+      <button id="x">x</button>
+      <button id="y">y</button>
+      <button id="z">z</button>
+    </main>
+    <section>
+      <span>Lives = <span id="live-counter">10</span></span>
 
-<body>
-  <header>
-    <h1>HANGMAN</h1>
-    <h3>VANILLA JAVASCRIPT HANGMAN GAME</h3>
-    <p>Use the alphabet below to guess the word, or click hint to get a clue.</p>
-  </header>
-  <main>
-    <button id="a">a</button>
-    <button id="b">b</button>
-    <button id="c">c</button>
-    <button id="d">d</button>
-    <button id="e">e</button>
-    <button id="f">f</button>
-    <button id="g">g</button>
-    <button id="h">h</button>
-    <button id="i">i</button>
-    <button id="j">j</button>
-    <button id="k">k</button>
-    <button id="l">l</button>
-    <button id="m">m</button>
-    <button id="n">n</button>
-    <button id="o">o</button>
-    <button id="p">p</button>
-    <button id="q">q</button>
-    <button id="r">r</button>
-    <button id="s">s</button>
-    <button id="t">t</button>
-    <button id="u">u</button>
-    <button id="v">v</button>
-    <button id="w">w</button>
-    <button id="x">x</button>
-    <button id="y">y</button>
-    <button id="z">z</button>
-  </main>
-  <section>
-    <span>Lives = <span id="live-counter">0</span></span>
-    <div id="letter-div">
-
+      <div id="letter-div"></div>
+    </section>
+    <section>
+      <button id="play-again">Play Again</button>
+    </section>
+    <div id="container">
+      <canvas id="hangman" width="180" height="250"></canvas>
     </div>
-  </section>
-  <section>
-    <canvas style="background-color: aqua; border-style: dotted; width: 400px; height: 400px;">
+   
 
-    </canvas>
-    <button id="play-again">Play Again</button>
-  </section>
-  <script src="./scripts/script.js"></script>
-</body>
 
+
+
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
