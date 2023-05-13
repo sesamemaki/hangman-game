@@ -1,5 +1,5 @@
 # Create a hangman game
-
+live: https://berkaybideci.github.io/hangman-game/
 ## Overview
 Create a hangman game! <br>
 Example of what we want to accomplish [here](https://codepen.io/cathydutton/pen/ldazc). You can use it to know exactly what the game is about, but do not copy it. Use your own way. Be as creative as you can! (You don't need to implement Hint button)
